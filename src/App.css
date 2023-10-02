@@ -1,8 +1,31 @@
-.splide__slide {
+/* .splide__slide {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
 .splide__pagination {
   display: none !important;
+} */
+/* styles.css */
+
+/* .light {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.dark {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+} */
+
+/* ---------------------------impulse--------------- */
+.lh_normal {
+  line-height: normal;
+}
+
+.linerBorder {
+  background: linear-gradient(9deg, #080d2d 0%, #50eed7 190%);
+}
+.linerBorderSecond {
+  background: linear-gradient(144deg, #080d2d 21%, #50eed7 160%);
 }

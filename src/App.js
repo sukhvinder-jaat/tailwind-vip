@@ -9,18 +9,22 @@ import { Managment } from "./components/Managment";
 import { TeamStars } from "./components/TeamStars";
 import { Success } from "./components/Sucess";
 import { Footer } from "./components/Footer";
+import ImpulseFooter from "./components/ImpulseFooter";
+import ImpulseAbout from "./components/ImpulseAbout";
 function App() {
   return (
     <div className=" overflow-hidden">
-      <Hero />
-      <Featured />
-      <Integer />
-      <Allvipe />
-      <LongTeam />
-      <Managment />
-      <TeamStars />
-      <Success />
-      <Footer />
+      {/* <Hero />
+        <Featured />
+        <Integer />
+        <Allvipe />
+        <LongTeam />
+        <Managment />
+        <TeamStars />
+        <Success />
+        <Footer /> */}
+      {/* <ImpulseFooter /> */}
+      <ImpulseAbout />
     </div>
   );
 }
